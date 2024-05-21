@@ -23,9 +23,12 @@ Consulta informações sobre um endereço baseado no CEP fornecido.
   - 400 Bad Request: Retorna um erro caso o CEP esteja em formato inválido.
   - 404 Not Found: Retorna um erro caso o CEP não seja encontrado na base de dados do ViaCEP.
 
+```
 - Exemplo de Chamada:
   GET /clientviacep/cep/01001000
+```
 
+```
 - Exemplo de Resposta:
   {
     "cep": "01001-000",
@@ -39,6 +42,7 @@ Consulta informações sobre um endereço baseado no CEP fornecido.
     "ddd": "11",
     "siafi": "7107"
   }
+```
 
 Arquitetura
 
