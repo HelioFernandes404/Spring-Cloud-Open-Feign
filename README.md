@@ -47,7 +47,4 @@ Consulta informações sobre um endereço baseado no CEP fornecido.
 Arquitetura
 
 FeignClient
-
 O cliente Feign é configurado para se comunicar com a API do ViaCEP, permitindo realizar consultas HTTP de forma simples e declarativa.
-
-@Feign
